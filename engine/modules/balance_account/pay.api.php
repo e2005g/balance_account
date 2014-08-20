@@ -66,7 +66,7 @@ Class PAY_API {
 
 }
 
-if( !$ba_config ) require_once ENGINE_DIR . "/modules/balance_account/data/config.php";
+require_once ENGINE_DIR . "/modules/balance_account/data/config.php";
 
 $pay_api = new PAY_API;
 $pay_api->config = $ba_config;
