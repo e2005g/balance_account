@@ -130,7 +130,7 @@ HTML;
     
     /* настройки */
     $ba_config['paycode'] = genCode();
-    //save_setting("config", $ba_config, "ba_config");
+    save_setting("config", $ba_config, "ba_config");
 
     /* Пользовательский интерфейс */
     $pay_api->creat_static_page( 'cabinet', "Личный кабинет", "balance_account/user");
