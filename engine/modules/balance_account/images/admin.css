@@ -1,0 +1,40 @@
+hr {
+	border:solid 1px #E7E2DE;
+	margin-bottom: 3px;
+	color: #fff;
+}
+
+.select a {
+	color: #fff;
+	background: #53c327;
+	padding: 3px;
+}
+
+#plugin_leftcol {
+    width: 200px;
+    float: left;
+    color: #333;
+}
+
+#plugin_content {
+	margin-left: 220px;
+}
+
+   #plugin_leftcol a { 
+    display: block;
+    padding: 2px;
+    padding-left: 12px;
+    margin: 1px;
+    text-decoration: none;
+    border: 1px solid #c2c2c2;
+   }
+   
+   #plugin_leftcol a:hover { 
+    background: #6696FF;
+    color: #f7f7f7;
+   }
+   
+   .plugin_leftcol_select { 
+    background: #606060;
+    color: #f7f7f7;
+   }
