@@ -44,14 +44,6 @@ $skin_header = <<<HTML
   <script type="text/javascript" src="engine/skins/javascripts/application.js"></script>
 </head>
 <body>
-<style type="text/css">	
-.fineprint {
-	border:1px solid black; 
-	padding:8px; 
-	background:#ffffff;
-	text-align:justify;
-}
-</style>
 <nav class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
   <div class="navbar-header">
     <a class="navbar-brand" href=""><img src="engine/skins/images/logo.png" />Мастер установки модуля</a>
@@ -61,12 +53,10 @@ $skin_header = <<<HTML
   <div class="col-md-8 col-md-offset-2">
     <div class="padded">
 	    <div style="margin-top: 50px;">
-<!--MAIN area-->
 HTML;
 
 
 $skin_footer = <<<HTML
-	 <!--MAIN area-->
     </div>
   </div>
 </div>
