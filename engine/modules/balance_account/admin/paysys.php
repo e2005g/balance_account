@@ -53,7 +53,7 @@ if( !defined( 'KG_MODULE' ) ) {
 
 		if( $paysys_info[$_GET['ps_name']] ) {
 
-			$ADM_theme->select("URL проверки платежа:", "Result URL, нужен для настройки платёжной системы.", "<b>{$config['http_home_url']}index.php?do=static&page=balance&payment={$_GET['ps_name']}&key={$ba_config['paycode']}</b>");
+			$ADM_theme->select("URL проверки платежа:", "Result URL, нужен для настройки платёжной системы.", "<b>{$config['http_home_url']}index.php?do=static&page=cabinet&payment={$_GET['ps_name']}&key={$ba_config['paycode']}</b>");
 			$ADM_theme->select("Название:", "Данное название увидят ваши пользователи.", "<input name=\"edit_name\" class=\"edit bk\" type=\"text\" value=\"{$paysys_info[$_GET['ps_name']][name]}\" size=\"40\"><input type=\"hidden\" name=\"user_hash\" value=\"{$dle_login_hash}\" />");
 			$ADM_theme->select("Включить систему платежей:", "Разрешить пользователям пополнять свой баланс с помощью данной платёжной системы.", makeCheckBox("edit_status", $paysys_info[$_GET['ps_name']][status]));
 
