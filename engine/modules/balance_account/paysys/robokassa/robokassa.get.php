@@ -12,7 +12,7 @@
 
 	$paysystems = $Paysys->select();
 	$config_shop_data = unserialize( $paysystems[$_GET['payment']]['info'] );
-	$pay_data = search_pay( $inv_id );
+	$pay_data = $Paysys->search_pay( $inv_id );
 
 	/* проверка подписи */
 	$crc = strtoupper($crc);
